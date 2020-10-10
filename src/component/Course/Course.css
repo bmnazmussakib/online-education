@@ -1,0 +1,19 @@
+.courses{
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    width: 80%;
+}
+
+.enroll-btn{
+    border: none;
+    background-color: rgb(242, 76, 159);
+    color: white;
+    font-size: 14px;
+    border-radius:20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.shop-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.course-container{
+    
+}
+
+.cart-container{
+    border-left: 1px solid lightgrey;
+    padding-left: 30px;
+    margin-left: 0px;
+    width: 30%;
+
+
+}
