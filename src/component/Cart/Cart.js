@@ -16,7 +16,7 @@ const Cart = (props) => {
             <h1>Order Summery</h1>
             <h4>Course added : {item.length}</h4>
             <h4>Total price : $ {totalPrice}</h4>
-            <button className="enroll-btn">Place Order</button>
+            <button className="mt-3 enroll-btn btn btn-danger">Place Order</button>
         </div>
     );
 };

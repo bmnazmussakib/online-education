@@ -8,9 +8,9 @@ const Course = (props) => {
 
     return (
         <div className="courses">
-            <h1 className = 'course-name'>{props.coursess.name}</h1>
+            <h1 className = 'pt-3 course-name'>{props.coursess.name}</h1>
             <h4 className = 'price'>Price: $ {props.coursess.price}</h4>
-            <button onClick = {()=>addItem(props.coursess)} className="enroll-btn">Enroll now</button>
+            <button onClick = {()=>addItem(props.coursess)} className="mt-3 btn btn-danger enroll-btn">Enroll now</button>
 
         </div>
     );
